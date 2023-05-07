@@ -1,5 +1,6 @@
 import scribbletune from 'scribbletune';
-
+import drumLoops from './components/drumloops/index.js';
+// import { Kick } from './components/d/kick.js';
 const ROOT = 'B2';
 const SCALE = 'major';
 
@@ -36,3 +37,4 @@ const clipB = scribbletune.clip({
 })
 
 scribbletune.midi([].concat(clipA, clipA, clipA, clipB), 'riff.mid');
+drumLoops();
