@@ -1,0 +1,16 @@
+{
+  "name": "electronicdancemusic",
+  "version": "1.0.0",
+  "description": "electronic dance music",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Sanjog Rijal",
+  "license": "ISC",
+  "dependencies": {
+    "scribbletune": "^5.0.2"
+  }
+}
